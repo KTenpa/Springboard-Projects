@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:focus {}
+
+body {
+  color: rgb(241, 199, 10);
+  background: linear-gradient(to left, #2be2c3, #f06901);
+}
+
+input {
+  text-align: center;
+  font-size: 18px;
+  background: #f0b001;
+  border-color: rgb(241, 153, 21, 0.7);
+  outline-color: #f06901;
+  padding: 0.5em;
+  margin-top: 250px;
+  width: 100%;
+}
+
+.search-container {
+  margin: auto;
+  width: 23%;
+  text-align: center;
+}
+
+.search-container input,
+.search-container .suggestions {}
+
+.search-container input {}
+
+.search-container .suggestions {
+  background: #f0b001;
+
+}
+
+ul {
+
+  list-style: none;
+  color: black;
+}
+
+ul.has-suggestions {}
+
+ul li {
+  padding: 10px;
+}
+
+ul li:hover {
+  background-color: #f06901;
+}
